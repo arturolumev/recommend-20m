@@ -12,6 +12,10 @@ from builtins import os
 
 ### 10M
 import fileinput
+<<<<<<< HEAD
+=======
+import os
+>>>>>>> be137e967477889d5809bc0620f00541fede47d0
 import numpy as np
 import pandas as pd
 from scipy.spatial.distance import cityblock
@@ -285,3 +289,4 @@ def distancias():
 
 if __name__ == "__main__":
     app.run(host='0.0.0.0', port=80, debug=True)
+
