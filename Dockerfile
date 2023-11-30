@@ -27,7 +27,7 @@ FROM base AS final
 COPY . .
 
 # Copy ratings.csv from the vote directory to the container's working directory
-COPY ratings.csv /usr/local/app/ratings.csv
+COPY ratings.dat /usr/local/app/ratings.dat
 
 # Make port 80 available for links and/or publish
 EXPOSE 80
