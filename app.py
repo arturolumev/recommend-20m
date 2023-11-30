@@ -8,7 +8,7 @@ import logging
 
 import csv
 from math import sqrt
-from builtins import os
+import os
 
 ### 10M
 import fileinput
