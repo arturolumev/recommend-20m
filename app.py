@@ -12,10 +12,6 @@ from builtins import os
 
 ### 10M
 import fileinput
-<<<<<<< HEAD
-=======
-import os
->>>>>>> be137e967477889d5809bc0620f00541fede47d0
 import numpy as np
 import pandas as pd
 from scipy.spatial.distance import cityblock
